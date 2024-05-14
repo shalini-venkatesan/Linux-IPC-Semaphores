@@ -24,7 +24,7 @@ Developed by : SHALINI V
 Register Number : 212222240096
 
 ## Write a C program that implements a producer-consumer system with two processes using Semaphores.
-~~~
+```
 /*
  * sem-producer-consumer.c  - demonstrates a basic producer-consumer
  *                            implementation.
@@ -115,7 +115,7 @@ if(NUM_LOOPS>=10)    {
     
     return 0;
 }
-~~~
+```
 
 ## OUTPUT
 $ ./sem.o
