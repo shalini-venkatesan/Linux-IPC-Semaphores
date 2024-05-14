@@ -20,8 +20,8 @@ Execute the C Program for the desired output.
 
 # PROGRAM:
 
-Developed by : VARSHA A
-Register Number : 212223220121
+Developed by : SHALINI V
+Register Number : 212222240096
 
 ## Write a C program that implements a producer-consumer system with two processes using Semaphores.
 ~~~
@@ -66,6 +66,8 @@ int main(int argc, char* argv[])
     }
     printf("semaphore set created, semaphore set id '%d'.\n", sem_set_id);
     /* intialize the first (and single) semaphore in our set to '0'. */
+```
+```
     sem_val.val = 0;
     rc = semctl(sem_set_id, 0, SETVAL, sem_val);
     /* fork-off a child process, and start a producer/consumer job. */
