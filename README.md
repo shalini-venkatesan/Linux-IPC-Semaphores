@@ -43,7 +43,8 @@ Reg No : 212222240096
 /* union semun is defined by including <sys/sem.h> */
 #else
 /* according to X/OPEN we have to define it ourselves */
-
+```
+```
 union semun {
         int val;                    /* value for SETVAL */
         struct semid_ds *buf;       /* buffer for IPC_STAT, IPC_SET */
@@ -51,6 +52,8 @@ union semun {
         struct seminfo *__buf;      /* buffer for IPC_INFO */
 };
 #endif
+```
+```
 int main(int argc, char* argv[])
 {
     int sem_set_id;	      /* ID of the semaphore set.       */
@@ -73,6 +76,8 @@ int main(int argc, char* argv[])
     rc = semctl(sem_set_id, 0, SETVAL, sem_val);
     /* fork-off a child process, and start a producer/consumer job. */
     child_pid = fork();
+```
+```
     switch (child_pid) {
 	case -1:	/* fork() failed */
 	    perror("fork");
