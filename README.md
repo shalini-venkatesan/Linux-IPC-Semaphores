@@ -1,4 +1,4 @@
-# Linux-IPC-Semaphores
+[# Linux-IPC-Semaphores
 Ex05-Linux IPC-Semaphores
 
 # AIM:
@@ -29,8 +29,8 @@ Execute the C Program for the desired output.
 # PROGRAM:
 # Developed by
 ```
-Name : BARATHRAJ B
-Reg No : 212222230019
+Name : SHALINI V
+Reg No : 212222240096
 ```
 
 ## Write a C program that implements a producer-consumer system with two processes using Semaphores.
@@ -265,3 +265,4 @@ $ ipcs
 
 # RESULT:
 The program is executed successfully.
+](https://github.com/shalini-venkatesan/Linux-IPC-Semaphores.git)
